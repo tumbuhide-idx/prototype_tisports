@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 13% 98%; /* #F9FAFB */
+    --background-soft: 220 13% 96%; /* Softer gray */
+    --foreground: 240 5% 12%; /* #1E1E2E - Almost Black */
+    --card: 0 0% 100%; /* #FFFFFF */
+    --card-foreground: 240 5% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 5% 12%;
+    --primary: 197 100% 47%; /* #00AEEF - Sporty Cyan */
+    --primary-soft: 197 100% 95%; /* Light Cyan */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 47% 55%; /* #7E57C2 - Accent Purple */
+    --secondary-foreground: 0 0% 100%;
+    --accent: 46 100% 50%; /* #FFD600 - Accent Yellow */
+    --accent-foreground: 240 5% 12%;
+    --muted: 220 9% 91%; /* #E5E7EB */
+    --muted-foreground: 215 14% 47%; /* #6B7280 */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 9% 91%; /* #E5E7EB */
+    --input: 220 9% 91%;
+    --ring: 197 100% 47%;
+    --radius: 1rem; /* 16px */
+    --surface: 0 0% 100%; /* Alias for card */
+    --surface-alt: 220 13% 96%;
+    --success: 158 89% 40%; /* #10B981 */
+    --warning: 46 100% 50%; /* #FFD600 */
+    --danger: 0 84.2% 60.2%;
+  }
+
+  .dark {
+    --background: 223 23% 10%; /* #13151A - Deep Navy */
+    --background-soft: 223 23% 12%; /* Slightly lighter navy */
+    --foreground: 220 13% 98%; /* #F9FAFB - Off White */
+    --card: 223 23% 15%; /* #1C1F26 - Dark Slate */
+    --card-foreground: 220 13% 98%;
+    --popover: 223 23% 15%;
+    --popover-foreground: 220 13% 98%;
+    --primary: 197 100% 47%; /* #00AEEF */
+    --primary-soft: 197 100% 15%; /* Dark Cyan */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 60% 75%; /* #A38AD9 - Lighter Purple */
+    --secondary-foreground: 240 5% 12%;
+    --accent: 46 100% 60%; /* #FFDE33 - Brighter Yellow */
+    --accent-foreground: 240 5% 12%;
+    --muted: 223 23% 20%; /* #282C37 */
+    --muted-foreground: 240 4% 63%; /* #A1A1AA */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 223 23% 20%;
+    --input: 223 23% 20%;
+    --ring: 197 100% 47%;
+    --surface: 223 23% 15%; /* Alias for card */
+    --surface-alt: 223 23% 18%;
+    --success: 158 64% 52%; /* #34D399 */
+    --warning: 46 100% 60%; /* #FFDE33 */
+    --danger: 0 72% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
