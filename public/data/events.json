@@ -1,0 +1,128 @@
+
+[
+  {
+    "id": "TIC-BDM-2408-001",
+    "slug": "fun-match-rabu-malam",
+    "title": "Fun Match Rabu Malam",
+    "venue": "GOR Cendekia",
+    "venueAddress": "Jl. Cendekia No. 1, Jakarta Selatan",
+    "venueMapUrl": "https://maps.app.goo.gl/12345",
+    "startsAt": "2025-11-05T12:00:00Z",
+    "endsAt": "2025-11-05T14:00:00Z",
+    "capacity": 24,
+    "priceIDR": 95000,
+    "status": "OPEN",
+    "participantsMasked": ["Andi", "Budi", "Citra", "Dewi", "Eko", "Fitri", "Gilang", "Hani", "Indra", "Joko", "Kiki", "Lina", "Mira", "Nina", "Oscar"],
+    "category": "Badminton",
+    "imageUrl": "https://picsum.photos/seed/event1/600/400",
+    "imageHint": "badminton match",
+    "description": "<p>Sesi Fun Match reguler setiap Rabu malam. Cocok untuk semua level, dari pemula hingga menengah, yang ingin bermain santai sambil menambah teman baru. Suasana dijamin seru dan positif!</p>",
+    "details": {
+      "format": "Fun Games/Sparring",
+      "gameType": ["Ganda"],
+      "includes": ["Shuttlecock", "Biaya Sewa Lapangan"],
+      "bring": ["Raket", "Sepatu Olahraga"]
+    },
+    "isMembership": false,
+    "galleryImages": [
+        {"url": "https://picsum.photos/seed/gallery1/800/600", "caption": "Pemanasan sebelum mulai."},
+        {"url": "https://picsum.photos/seed/gallery2/600/800", "caption": "Aksi smash dari salah satu peserta."},
+        {"url": "https://picsum.photos/seed/gallery3/800/600", "caption": "Foto bersama di akhir sesi."}
+    ]
+  },
+  {
+    "id": "TIC-BDM-2408-002",
+    "slug": "weekend-smash",
+    "title": "Weekend Smash",
+    "venue": "Arena Pro",
+    "venueAddress": "Jl. Profesional No. 2, Jakarta Pusat",
+    "venueMapUrl": "https://maps.app.goo.gl/67890",
+    "startsAt": "2025-11-09T02:00:00Z",
+    "endsAt": "2025-11-09T04:00:00Z",
+    "capacity": 18,
+    "priceIDR": 90000,
+    "status": "OPEN",
+    "participantsMasked": ["Asep", "Bambang", "Cecep", "Dedi", "Edi", "Faisal", "Guntur", "Hadi", "Iwan", "Jamal", "Karim", "Lukman"],
+    "category": "Badminton",
+    "imageUrl": "https://picsum.photos/seed/event2/600/400",
+    "imageHint": "badminton racket",
+    "description": "<p>Lepaskan penat akhir pekan dengan sesi bulu tangkis yang intens. Sesi ini lebih fokus pada sparring dan permainan kompetitif. Cocok untuk level Newbie+ hingga Lanjut.</p>",
+    "details": {
+      "format": "Sparring Kompetitif",
+      "gameType": ["Ganda"],
+      "includes": ["Shuttlecock", "Air Mineral"],
+      "bring": ["Raket", "Sepatu Olahraga", "Handuk"]
+    },
+    "isMembership": false,
+    "galleryImages": [
+        {"url": "https://picsum.photos/seed/gallery4/800/600", "caption": "Diskusi strategi antar pasangan."},
+        {"url": "https://picsum.photos/seed/gallery5/600/800", "caption": "Netting tipis yang memukau."}
+    ]
+  },
+  {
+    "id": "TIC-BDM-2409-001",
+    "slug": "membership-batch-1",
+    "title": "Membership Batch 1",
+    "venue": "GOR Cendekia & Arena Pro",
+    "venueAddress": "Jakarta",
+    "venueMapUrl": "https://maps.app.goo.gl/12345",
+    "startsAt": "2025-11-01T12:00:00Z",
+    "endsAt": "2025-11-30T14:00:00Z",
+    "capacity": 36,
+    "priceIDR": 0,
+    "status": "OPEN",
+    "participantsMasked": ["Andi", "Budi", "Citra", "Dewi", "Eko", "Fitri", "Gilang", "Hani", "Indra", "Joko", "Kiki", "Lina", "Mira", "Nina", "Oscar", "Putra", "Rani", "Sari", "Tono", "Umar", "Vina", "Wati"],
+    "category": "Badminton",
+    "imageUrl": "https://picsum.photos/seed/event3/600/400",
+    "imageHint": "group sport",
+    "description": "<p>Program membership eksklusif untuk 4x sesi latihan terstruktur dalam sebulan. Dapatkan bimbingan, video analisis, dan jersey eksklusif.</p>",
+    "details": {
+      "format": "Latihan Terstruktur & Sparring",
+      "gameType": ["Ganda", "Latihan individu"],
+      "includes": ["Shuttlecock Premium", "Pelatih", "Video Analisis", "Jersey Eksklusif"],
+      "bring": ["Raket", "Sepatu Olahraga", "Komitmen"]
+    },
+    "isMembership": true,
+    "membershipDetails": {
+      "priceIDR": 450000,
+      "description": "Program membership bulanan ini dirancang untuk pemain yang ingin meningkatkan skill secara serius. Anda akan mendapatkan 4 sesi latihan intensif yang mencakup teknik, fisik, dan strategi, dipandu oleh pelatih berpengalaman. Setiap anggota juga akan menerima jersey eksklusif batch ini.",
+      "sessionDates": [
+        "2025-11-05T12:00:00Z",
+        "2025-11-12T12:00:00Z",
+        "2025-11-19T12:00:00Z",
+        "2025-11-26T12:00:00Z"
+      ]
+    },
+    "galleryImages": [
+        {"url": "https://picsum.photos/seed/gallery6/800/600", "caption": "Sesi briefing dari pelatih."},
+        {"url": "https://picsum.photos/seed/gallery7/800/600", "caption": "Latihan footwork bersama."}
+    ]
+  },
+  {
+    "id": "TIC-FTS-2408-001",
+    "slug": "futsal-fun-game-jumat",
+    "title": "Futsal Fun Game Jumat",
+    "venue": "Pro Futsal Arena",
+    "venueAddress": "Jl. Olahraga No. 10, Jakarta Timur",
+    "venueMapUrl": "https://maps.app.goo.gl/abcdef",
+    "startsAt": "2025-11-07T13:00:00Z",
+    "endsAt": "2025-11-07T15:00:00Z",
+    "capacity": 20,
+    "priceIDR": 85000,
+    "status": "OPEN",
+    "participantsMasked": ["Xavier", "Yanto", "Zulham", "Alpha", "Bravo", "Charlie", "Delta"],
+    "category": "Futsal",
+    "imageUrl": "https://picsum.photos/seed/event4/600/400",
+    "imageHint": "futsal court",
+    "description": "<p>Sesi fun game futsal untuk melepas penat setelah seminggu bekerja. Semua level diterima, yang penting fun dan keluar keringat bareng!</p>",
+    "details": {
+      "format": "Fun Games",
+      "gameType": ["5 vs 5"],
+      "includes": ["Sewa Lapangan", "Rompi Tim", "Air Minum"],
+      "bring": ["Sepatu Futsal", "Jersey Pribadi (opsional)"]
+    },
+    "isMembership": false
+  }
+]
+
+    

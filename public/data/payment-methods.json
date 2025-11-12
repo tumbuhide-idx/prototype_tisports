@@ -1,0 +1,19 @@
+
+[
+    {
+        "id": "bca",
+        "type": "BANK",
+        "displayName": "Bank BCA",
+        "accountNumber": "88123456789",
+        "accountName": "PT Tumbuh IDE",
+        "isActive": true
+    },
+    {
+        "id": "qris",
+        "type": "QRIS",
+        "displayName": "QRIS",
+        "qrisUrl": "https://picsum.photos/seed/qris/300/300",
+        "accountName": "PT Tumbuh IDE",
+        "isActive": false
+    }
+]
